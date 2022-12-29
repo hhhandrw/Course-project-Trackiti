@@ -3,4 +3,94 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <servlet>
+        <servlet-name>bugs</servlet-name>
+        <servlet-class>app.servlets.BugsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bugs</servlet-name>
+        <url-pattern>/bugs</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>features</servlet-name>
+        <servlet-class>app.servlets.FeaturesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>features</servlet-name>
+        <url-pattern>/features</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>realized</servlet-name>
+        <servlet-class>app.servlets.RealizedServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>realized</servlet-name>
+        <url-pattern>/realized</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addBug</servlet-name>
+        <servlet-class>app.servlets.AddBugServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addBug</servlet-name>
+        <url-pattern>/addBug</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addFeature</servlet-name>
+        <servlet-class>app.servlets.AddFeatureServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addFeature</servlet-name>
+        <url-pattern>/addFeature</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editBug</servlet-name>
+        <servlet-class>app.servlets.EditBugServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>editBug</servlet-name>
+        <url-pattern>/editBug</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editFeature</servlet-name>
+        <servlet-class>app.servlets.EditFeatureServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>editFeature</servlet-name>
+        <url-pattern>/editFeature</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sendBugToRealized</servlet-name>
+        <servlet-class>app.servlets.SendBugToRealizedServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sendBugToRealized</servlet-name>
+        <url-pattern>/sendBugToRealized</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sendFeatureToRealized</servlet-name>
+        <servlet-class>app.servlets.SendFeatureToRealizedServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sendFeatureToRealized</servlet-name>
+        <url-pattern>/sendFeatureToRealized</url-pattern>
+    </servlet-mapping>
 </web-app>

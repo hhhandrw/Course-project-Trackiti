@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Course-project-Trackiti:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Course_project_Trackiti_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Course-project-Trackiti" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Course-project-Trackiti/web/Web" />
+    </root>
+  </artifact>
+</component>
